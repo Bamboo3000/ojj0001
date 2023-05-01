@@ -1,7 +1,6 @@
 import Head from 'next/head';
 
-const Layout = ({ children, global, pageContext }) => {
-  console.log(pageContext);
+const Layout = ({ children }) => {
   return (
     <>
       <Head>
